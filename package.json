@@ -1,0 +1,29 @@
+{
+  "name": "ifcjs-toolingexercise",
+  "version": "1.0.0",
+  "description": "# Demo Page View the live version of this repo here [https://tomreeveclark.github.io/IFCjs-ToolingExercise/](https://tomreeveclark.github.io/IFCjs-ToolingExercise/)",
+  "main": "bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "watch": "rollup -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomreeveclark/IFCjs-ToolingExercise.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomreeveclark/IFCjs-ToolingExercise/issues"
+  },
+  "homepage": "https://github.com/tomreeveclark/IFCjs-ToolingExercise#readme",
+  "dependencies": {
+    "three": "^0.135.0",
+    "web-ifc-viewer": "^1.0.213"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^14.1.0",
+    "rollup": "^2.79.1"
+  }
+}
