@@ -1,5 +1,8 @@
 # IFCjs-ToolingExercise
 
+# Demo Page
+View the live version of this repo here [https://tomreeveclark.github.io/IFCjs-ToolingExercise/](https://tomreeveclark.github.io/IFCjs-ToolingExercise/)
+
 Steps
 1. Initialise repository
 2. Initialise git in the repository
