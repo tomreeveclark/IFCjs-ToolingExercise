@@ -121813,13 +121813,14 @@ class IfcViewerAPI {
 
 const container = document.getElementById('viewer-container');
 const viewer = new IfcViewerAPI({ container, backgroundColor: new Color(0xffffff) });
+
+// Create grid and axes
 viewer.grid.setGrid();
 viewer.axes.setAxes();
 
 async function loadIfc(url) {
-    await viewer.IFC.setWasmPath("../../../");
-    const model = await viewer.IFC.loadIfcUrl(url);
-    viewer.shadowDropper.renderShadow(model.modelID);
+		// Load the model
+    await viewer.IFC.loadIfcUrl(url);
 }
 
 loadIfc('resources/test.ifc');
