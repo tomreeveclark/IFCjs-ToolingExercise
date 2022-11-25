@@ -1,0 +1,10 @@
+{
+   "version": 2,
+   "name": "App Name",
+   "builds": [
+      { "src": "bundle.js", "use": "@vercel/node" }
+   ],
+   "routes": [
+      { "src": "/(.*)", "dest": "/bundlef.js" }
+   ]
+}
